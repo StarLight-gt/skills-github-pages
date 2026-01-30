@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Maybank Unit Trusts | M2U Refresh</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --brand-yellow: #ffc800;
+        --brand-black: #111111;
+        --ink: #1b1f24;
+        --muted: #5f6b7a;
+        --surface: #f7f7f8;
+        --card: #ffffff;
+        --border: #e1e5ea;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+        color: var(--ink);
+        background: var(--surface);
+        line-height: 1.6;
+      }
+      header {
+        background: var(--brand-black);
+        color: white;
+        padding: 48px 20px;
+      }
+      .container {
+        max-width: 1080px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      .brand-bar {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 24px;
+      }
+      .brand-dot {
+        width: 18px;
+        height: 18px;
+        background: var(--brand-yellow);
+        border-radius: 50%;
+      }
+      header h1 {
+        margin: 0 0 12px 0;
+        font-size: clamp(2rem, 3vw, 3rem);
+      }
+      header p {
+        margin: 0;
+        max-width: 720px;
+        color: rgba(255, 255, 255, 0.85);
+      }
+      main {
+        padding: 32px 0 64px;
+        background: var(--card);
+      }
+      section {
+        margin: 0;
+      }
+      .section-row {
+        display: grid;
+        gap: 18px;
+        padding: 28px 0;
+      }
+      .section-row > h2 {
+        margin: 0;
+        font-size: 1.4rem;
+        color: var(--brand-black);
+      }
+      .section-body {
+        display: grid;
+        gap: 16px;
+      }
+      .section-divider {
+        border: 0;
+        border-top: 1px solid var(--border);
+        margin: 0;
+      }
+      @media (min-width: 900px) {
+        .section-row {
+          grid-template-columns: 240px minmax(0, 1fr);
+          gap: 32px;
+        }
+      }
+      .muted {
+        color: var(--muted);
+      }
+      .grid {
+        display: grid;
+        gap: 18px;
+      }
+      @media (min-width: 800px) {
+        .grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+      .stage {
+        border-left: 4px solid var(--brand-yellow);
+        padding-left: 16px;
+      }
+      .stage h3 {
+        margin: 0 0 8px 0;
+      }
+      .cta-panel {
+        background: var(--brand-yellow);
+        color: var(--brand-black);
+        padding: 24px;
+        border-radius: 12px;
+        font-weight: 600;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+      .cta-panel button {
+        background: var(--brand-black);
+        color: white;
+        border: none;
+        padding: 12px 18px;
+        border-radius: 999px;
+        font-size: 0.95rem;
+        cursor: pointer;
+        width: fit-content;
+      }
+      footer {
+        text-align: center;
+        padding: 24px 20px 40px;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="brand-bar">
+          <div class="brand-dot" aria-hidden="true"></div>
+          <strong>Maybank Unit Trusts</strong>
+        </div>
+        <h1>Plan today, invest with confidence</h1>
+        <p>
+          This M2U refresh page offers a refreshed, customer-friendly view of Unit
+          Trusts and how to invest across every life stage.
+        </p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="section-row">
+        <h2>Why invest in the first place?</h2>
+        <div class="section-body">
+          <p>
+            Investing helps your money grow over time so you can keep up with rising
+            costs, build long-term security, and reach the goals that matter to you.
+            Instead of letting cash sit idle, a planned investment strategy puts your
+            money to work so you can target higher returns over the long run.
+          </p>
+          <p class="muted">
+            Whether you are in Malaysia or Singapore, inflation and rising living
+            costs can quietly reduce purchasing power. Investing early gives you more
+            time for your money to compound and work through market cycles.
+          </p>
+        </div>
+      </section>
+      <hr class="section-divider" />
+
+      <section class="section-row">
+        <h2>What is a Unit Trust?</h2>
+        <div class="section-body">
+          <div class="grid">
+            <div>
+              <p>
+                A Unit Trust pools money from many investors and is managed by
+                professional fund managers. The fund can invest across asset classes
+                such as equities, bonds, or mixed portfolios depending on the
+                investment objective.
+              </p>
+              <p class="muted">
+                You buy units in the fund, and the value moves with the performance
+                of the underlying investments. This makes Unit Trusts a convenient
+                way to access diversified portfolios.
+              </p>
+            </div>
+            <div>
+              <ul>
+                <li>Professional management and research.</li>
+                <li>Diversification to spread risk.</li>
+                <li>Options for different risk profiles.</li>
+                <li>Regular savings plans for disciplined investing.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="section-divider" />
+
+      <section class="section-row">
+        <h2>Investing through life stages</h2>
+        <div class="section-body">
+          <div class="grid">
+            <div class="stage">
+              <h3>Student</h3>
+              <p>
+                Focus on building the habit. Start with small, regular contributions
+                and prioritize balanced or growth-oriented funds to give your money
+                time to compound.
+              </p>
+            </div>
+            <div class="stage">
+              <h3>Working adult</h3>
+              <p>
+                Increase contributions as income grows. Combine growth funds with
+                some defensive options to manage volatility while still aiming for
+                long-term returns.
+              </p>
+            </div>
+            <div class="stage">
+              <h3>Starting a family</h3>
+              <p>
+                Align investments with milestones like housing, education, and
+                protection needs. Consider a diversified mix and set aside a portion
+                for medium-term goals.
+              </p>
+            </div>
+            <div class="stage">
+              <h3>Retirement</h3>
+              <p>
+                Shift towards capital preservation and income-oriented funds. The
+                goal is to protect accumulated savings while maintaining a stable
+                cash flow.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="section-divider" />
+
+      <section class="section-row">
+        <h2>Get started</h2>
+        <div class="section-body">
+          <div class="cta-panel">
+            <div>
+              Ready to take the next step? Explore Unit Trusts that match your goals
+              and start building a more confident financial future.
+            </div>
+            <button type="button">Get started</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      This is a concept page inspired by Maybank Unit Trusts content.
+    </footer>
+  </body>
+</html>
